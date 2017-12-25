@@ -21,7 +21,7 @@ public class XmlParser {
             int count = 0;
 
             sCurrentLine = br.readLine();
-			while (sCurrentLine != null) {
+            while (sCurrentLine != null) {
                 // new doc
                 if (sCurrentLine.startsWith(".I")) {
                     doc = new Document();
@@ -41,6 +41,7 @@ public class XmlParser {
                         field = new Field();
                         field.setName(splt[1]);
                         list = new ArrayList<String>();
+
                         sCurrentLine = br.readLine();
                         while ((sCurrentLine != null) && !sCurrentLine.startsWith(".")) {
                             if (!sCurrentLine.endsWith(" ")) {
@@ -49,6 +50,7 @@ public class XmlParser {
                             list.add(sCurrentLine);
                             sCurrentLine = br.readLine();
                         }
+                        
                         keywords = String.join("", list);
                         field.setValue(keywords);
                         doc.addField(field);
