@@ -10,14 +10,13 @@ public class XmlParser {
 
     public static void main(String[] args) throws JAXBException {
         try (BufferedReader br = new BufferedReader(new FileReader(FILENAME))) {
-            String sCurrentLine;
+            String sCurrentLine, keywords, title;
             String[] splt = null;
             String[] splt_value = null;
             Documents documents = new Documents();
             Document doc = null;
             Field field = null;
             ArrayList<String> list = null;
-            String keywords;
             int count = 0;
 
             sCurrentLine = br.readLine();
@@ -35,6 +34,27 @@ public class XmlParser {
 
                 sCurrentLine = br.readLine();
                 while ((sCurrentLine != null) && !sCurrentLine.startsWith(".I")) {
+                    // if title in multiple lines concatenate in one field
+                    if (sCurrentLine.startsWith(".T")) {
+                        splt = sCurrentLine.split("");
+                        field = new Field();
+                        field.setName(splt[1]);
+                        list = new ArrayList<String>();
+
+                        sCurrentLine = br.readLine();
+                        while ((sCurrentLine != null) && !sCurrentLine.startsWith(".")) {
+                            if (!sCurrentLine.endsWith(" ")) {
+                                sCurrentLine = sCurrentLine.concat(" ");
+                            }
+                            list.add(sCurrentLine);
+                            sCurrentLine = br.readLine();
+                        }
+                        
+                        title = String.join("", list);
+                        field.setValue(title.replaceAll("\\s+", " "));
+                        doc.addField(field);
+                    }
+
                     // if keywords or abstract concatenate all in one field
                     if (sCurrentLine.startsWith(".K") || sCurrentLine.startsWith(".W")) {
                         splt = sCurrentLine.split("");
@@ -52,7 +72,7 @@ public class XmlParser {
                         }
                         
                         keywords = String.join("", list);
-                        field.setValue(keywords);
+                        field.setValue(keywords.replaceAll("\\s+", " "));
                         doc.addField(field);
                     } 
                     
