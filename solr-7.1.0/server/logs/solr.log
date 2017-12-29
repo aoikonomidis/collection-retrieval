@@ -1,0 +1,82 @@
+2017-12-27 23:07:08.964 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2017-12-27 23:07:09.977 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.1.0
+2017-12-27 23:07:09.978 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-12-27 23:07:09.978 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0, Default config dir: C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr\configsets\_default\conf
+2017-12-27 23:07:10.061 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-12-27T23:07:10.048Z
+2017-12-27 23:07:10.061 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-12-27 23:07:10.076 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr
+2017-12-27 23:07:10.081 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr\solr.xml
+2017-12-27 23:07:11.948 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr
+2017-12-27 23:07:11.949 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [films]
+2017-12-27 23:07:11.956 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2017-12-27 23:07:12.027 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.SolrResourceLoader [films] Added 53 libs to classloader, from paths: [/C:/Users/and_o/OneDrive/Έγγραφα/AUEB/current_courses/Συστήματα%20Ανάκτησης%20Πληροφοριών%20-%20Information%20Retrieval%20Systems/2017-2018/project/solr-7.1.0/contrib/clustering/lib, /C:/Users/and_o/OneDrive/Έγγραφα/AUEB/current_courses/Συστήματα%20Ανάκτησης%20Πληροφοριών%20-%20Information%20Retrieval%20Systems/2017-2018/project/solr-7.1.0/contrib/extraction/lib, /C:/Users/and_o/OneDrive/Έγγραφα/AUEB/current_courses/Συστήματα%20Ανάκτησης%20Πληροφοριών%20-%20Information%20Retrieval%20Systems/2017-2018/project/solr-7.1.0/contrib/langid/lib, /C:/Users/and_o/OneDrive/Έγγραφα/AUEB/current_courses/Συστήματα%20Ανάκτησης%20Πληροφοριών%20-%20Information%20Retrieval%20Systems/2017-2018/project/solr-7.1.0/contrib/velocity/lib, /C:/Users/and_o/OneDrive/Έγγραφα/AUEB/current_courses/Συστήματα%20Ανάκτησης%20Πληροφοριών%20-%20Information%20Retrieval%20Systems/2017-2018/project/solr-7.1.0/dist]
+2017-12-27 23:07:12.204 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.1.0
+2017-12-27 23:07:12.439 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.s.IndexSchema [films] Schema name=default-config
+2017-12-27 23:07:12.470 INFO  (main) [   ] o.e.j.s.Server Started @4510ms
+2017-12-27 23:07:13.144 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2017-12-27 23:07:13.188 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.CoreContainer Creating SolrCore 'films' using configuration from instancedir C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr\films, trusted=true
+2017-12-27 23:07:13.218 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-12-27 23:07:13.226 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.SolrCore [[films] ] Opening new SolrCore at [C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr\films], dataDir=[C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr\films\data\]
+2017-12-27 23:07:13.261 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-12-27 23:07:13.630 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-12-27 23:07:13.630 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-12-27 23:07:13.645 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-12-27 23:07:13.645 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-12-27 23:07:13.731 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.s.SolrIndexSearcher Opening [Searcher@37ee651[films] main]
+2017-12-27 23:07:13.746 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr\films\conf
+2017-12-27 23:07:13.771 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-12-27 23:07:13.781 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-12-27 23:07:13.796 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2017-12-27 23:07:13.850 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@37ee651[films] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-12-27 23:07:13.850 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-27 23:07:13.850 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-12-27 23:07:13.853 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1587980307113443328
+2017-12-27 23:07:13.853 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.SolrCore [films] Registered new searcher Searcher@37ee651[films] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-12-27 23:07:16.487 INFO  (qtp754666084-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=30
+2017-12-27 23:07:20.439 INFO  (qtp754666084-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1514416040355} status=0 QTime=1
+2017-12-27 23:07:20.453 INFO  (qtp754666084-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1514416040430} status=0 QTime=8
+2017-12-27 23:07:20.465 INFO  (qtp754666084-22) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1514416040431} status=0 QTime=11
+2017-12-27 23:07:20.469 INFO  (qtp754666084-13) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1514416040356&ts=1514416040356} status=503 QTime=15
+2017-12-27 23:07:20.531 INFO  (qtp754666084-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1514416040356} status=0 QTime=90
+2017-12-27 23:07:20.531 INFO  (qtp754666084-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/system params={wt=json&_=1514416040430} status=0 QTime=72
+2017-12-27 23:07:32.528 INFO  (qtp754666084-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1514416040355} status=0 QTime=0
+2017-12-27 23:07:32.538 INFO  (qtp754666084-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1514416040430} status=0 QTime=5
+2017-12-27 23:07:32.555 INFO  (qtp754666084-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/config params={wt=json&_=1514416052505} status=0 QTime=5
+2017-12-27 23:07:32.584 INFO  (qtp754666084-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1514416040356} status=0 QTime=55
+2017-12-27 23:07:32.690 INFO  (qtp754666084-22) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1514416040430} status=0 QTime=0
+2017-12-27 23:09:12.423 INFO  (qtp754666084-19) [   x:films] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr\films\conf\managed-schema
+2017-12-27 23:09:12.475 INFO  (qtp754666084-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/schema params={wt=json&_=1514416052505} status=0 QTime=196
+2017-12-27 23:09:14.009 INFO  (qtp754666084-16) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1514416040430} status=0 QTime=6
+2017-12-27 23:09:14.031 INFO  (qtp754666084-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/config params={wt=json&_=1514416052505} status=0 QTime=15
+2017-12-27 23:09:14.097 INFO  (qtp754666084-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1514416040430} status=0 QTime=0
+2017-12-27 23:12:01.479 INFO  (qtp754666084-14) [   x:films] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Users\and_o\OneDrive\Έγγραφα\AUEB\current_courses\Συστήματα Ανάκτησης Πληροφοριών - Information Retrieval Systems\2017-2018\project\solr-7.1.0\server\solr\films\conf\managed-schema
+2017-12-27 23:12:01.577 INFO  (qtp754666084-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/schema params={wt=json&_=1514416052505} status=0 QTime=145
+2017-12-27 23:12:03.095 INFO  (qtp754666084-16) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1514416040430} status=0 QTime=5
+2017-12-27 23:12:03.105 INFO  (qtp754666084-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/config params={wt=json&_=1514416052505} status=0 QTime=1
+2017-12-27 23:12:03.161 INFO  (qtp754666084-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1514416040430} status=0 QTime=0
+2017-12-27 23:14:15.089 INFO  (qtp754666084-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1514416454981} status=0 QTime=0
+2017-12-27 23:14:15.096 INFO  (qtp754666084-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1514416455064} status=0 QTime=3
+2017-12-27 23:14:15.116 INFO  (qtp754666084-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/config params={wt=json&_=1514416455064} status=0 QTime=0
+2017-12-27 23:14:15.129 INFO  (qtp754666084-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1514416454982} status=0 QTime=39
+2017-12-27 23:14:15.181 INFO  (qtp754666084-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1514416455064} status=0 QTime=0
+2017-12-27 23:14:18.105 INFO  (qtp754666084-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1514416454981} status=0 QTime=0
+2017-12-27 23:14:18.110 INFO  (qtp754666084-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1514416455064} status=0 QTime=0
+2017-12-27 23:14:18.119 INFO  (qtp754666084-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1514416458097} status=0 QTime=2
+2017-12-27 23:14:18.136 INFO  (qtp754666084-22) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1514416454982&ts=1514416454982} status=503 QTime=0
+2017-12-27 23:14:18.149 INFO  (qtp754666084-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1514416454982} status=0 QTime=43
+2017-12-27 23:14:18.161 INFO  (qtp754666084-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/system params={wt=json&_=1514416458097} status=0 QTime=36
+2017-12-27 23:14:38.607 INFO  (qtp754666084-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1514416454981} status=0 QTime=0
+2017-12-27 23:14:38.638 INFO  (qtp754666084-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1514416454982} status=0 QTime=29
+2017-12-27 23:14:40.399 INFO  (qtp754666084-21) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1514416478570} hits=0 status=0 QTime=27
+2017-12-27 23:16:07.457 INFO  (qtp754666084-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1514416454981} status=0 QTime=1
+2017-12-27 23:16:07.464 INFO  (qtp754666084-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1514416454981} status=0 QTime=2
+2017-12-27 23:16:07.491 INFO  (qtp754666084-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1514416454982} status=0 QTime=35
+2017-12-27 23:16:07.545 INFO  (qtp754666084-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1514416454981} status=0 QTime=0
+2017-12-27 23:16:07.545 INFO  (qtp754666084-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1514416454981} status=0 QTime=0
+2017-12-27 23:16:07.574 INFO  (qtp754666084-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1514416454982} status=0 QTime=27
+2017-12-27 23:21:42.274 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=257608164
+2017-12-27 23:21:42.275 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2017-12-27 23:21:42.275 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2017-12-27 23:21:42.275 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2017-12-27 23:21:42.276 INFO  (coreCloseExecutor-12-thread-1) [   x:films] o.a.s.c.SolrCore [films]  CLOSING SolrCore org.apache.solr.core.SolrCore@b439b01
+2017-12-27 23:21:42.277 INFO  (coreCloseExecutor-12-thread-1) [   x:films] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.films, tag=188979969
