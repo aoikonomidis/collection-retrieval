@@ -1,0 +1,68 @@
+2018-01-06 15:22:09.211 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-01-06 15:22:10.505 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.1.0
+2018-01-06 15:22:10.506 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-01-06 15:22:10.506 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0, Default config dir: /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr/configsets/_default/conf
+2018-01-06 15:22:10.622 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-01-06T15:22:10.508Z
+2018-01-06 15:22:10.624 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-01-06 15:22:10.826 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr
+2018-01-06 15:22:10.867 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr/solr.xml
+2018-01-06 15:22:15.243 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr
+2018-01-06 15:22:15.266 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [cacm]
+2018-01-06 15:22:15.273 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-01-06 15:22:15.619 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.c.SolrResourceLoader [cacm] Added 53 libs to classloader, from paths: [/Users/and_oik/Desktop/Information%20Retrieval/collection-retrieval/solr-7.1.0/contrib/clustering/lib, /Users/and_oik/Desktop/Information%20Retrieval/collection-retrieval/solr-7.1.0/contrib/extraction/lib, /Users/and_oik/Desktop/Information%20Retrieval/collection-retrieval/solr-7.1.0/contrib/langid/lib, /Users/and_oik/Desktop/Information%20Retrieval/collection-retrieval/solr-7.1.0/contrib/velocity/lib, /Users/and_oik/Desktop/Information%20Retrieval/collection-retrieval/solr-7.1.0/dist]
+2018-01-06 15:22:15.983 INFO  (main) [   ] o.e.j.s.Server Started @9789ms
+2018-01-06 15:22:17.053 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.1.0
+2018-01-06 15:22:17.421 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.s.IndexSchema [cacm] Schema name=default-config
+2018-01-06 15:22:18.951 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-01-06 15:22:19.016 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.c.CoreContainer Creating SolrCore 'cacm' using configuration from instancedir /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr/cacm, trusted=true
+2018-01-06 15:22:19.177 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-01-06 15:22:19.220 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.c.SolrCore [[cacm] ] Opening new SolrCore at [/Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr/cacm], dataDir=[/Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr/cacm/data/]
+2018-01-06 15:22:19.343 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-01-06 15:22:20.040 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-01-06 15:22:20.041 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-01-06 15:22:20.129 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-01-06 15:22:20.129 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-01-06 15:22:20.605 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.s.SolrIndexSearcher Opening [Searcher@e895ff7[cacm] main]
+2018-01-06 15:22:20.687 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr/cacm/conf
+2018-01-06 15:22:20.738 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-01-06 15:22:20.759 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-01-06 15:22:20.773 INFO  (coreLoadExecutor-6-thread-1) [   x:cacm] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-01-06 15:22:20.908 INFO  (searcherExecutor-7-thread-1-processing-x:cacm) [   x:cacm] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@e895ff7[cacm] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C3204)))}
+2018-01-06 15:22:20.908 INFO  (searcherExecutor-7-thread-1-processing-x:cacm) [   x:cacm] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-01-06 15:22:20.908 INFO  (searcherExecutor-7-thread-1-processing-x:cacm) [   x:cacm] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-01-06 15:22:20.914 INFO  (searcherExecutor-7-thread-1-processing-x:cacm) [   x:cacm] o.a.s.c.SolrCore [cacm] Registered new searcher Searcher@e895ff7[cacm] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C3204)))}
+2018-01-06 15:22:27.922 INFO  (qtp128526626-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1515252147628} status=0 QTime=30
+2018-01-06 15:22:28.039 INFO  (qtp128526626-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1515252147628} status=0 QTime=145
+2018-01-06 15:22:28.087 INFO  (qtp128526626-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1515252147628} status=0 QTime=29
+2018-01-06 15:22:34.382 INFO  (qtp128526626-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1515252147628} status=0 QTime=0
+2018-01-06 15:22:34.418 INFO  (qtp128526626-20) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1515252147629&ts=1515252147629} status=503 QTime=6
+2018-01-06 15:22:34.420 INFO  (qtp128526626-17) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1515252154373} status=0 QTime=32
+2018-01-06 15:22:34.438 INFO  (qtp128526626-15) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/replication params={wt=json&command=details&_=1515252154373} status=0 QTime=28
+2018-01-06 15:22:34.496 INFO  (qtp128526626-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1515252147628} status=0 QTime=112
+2018-01-06 15:22:34.501 INFO  (qtp128526626-19) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/admin/system params={wt=json&_=1515252154373} status=0 QTime=90
+2018-01-06 15:22:37.053 INFO  (qtp128526626-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1515252147628} status=0 QTime=0
+2018-01-06 15:22:37.118 INFO  (qtp128526626-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1515252147628} status=0 QTime=59
+2018-01-06 15:22:46.753 INFO  (qtp128526626-20) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=*:*&fl=id&_=1515252157011} hits=3204 status=0 QTime=246
+2018-01-06 15:22:59.174 INFO  (qtp128526626-17) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=*:*&fl=score&_=1515252157011} hits=3204 status=0 QTime=3
+2018-01-06 15:23:13.234 INFO  (qtp128526626-15) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=algorithm&fl=score&_=1515252157011} hits=0 status=0 QTime=51
+2018-01-06 15:23:27.448 INFO  (qtp128526626-12) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=abstract:+"algorithm"&fl=score&_=1515252157011} hits=289 status=0 QTime=95
+2018-01-06 15:24:03.190 INFO  (qtp128526626-19) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=author:+"Pooch"&fl=score&_=1515252157011} hits=1 status=0 QTime=23
+2018-01-06 15:25:37.138 INFO  (qtp128526626-13) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=author:+"Pooch"+OR+author:+"Prieve"&fl=score&_=1515252157011} hits=3 status=0 QTime=52
+2018-01-06 15:25:59.014 INFO  (qtp128526626-19) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=author:+"Pooch"+OR+author:+"Prieve"&fl=id,score&_=1515252157011} hits=3 status=0 QTime=0
+2018-01-06 15:29:19.130 INFO  (qtp128526626-12) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=abstract:+"network"&fl=id,score&_=1515252157011} hits=43 status=0 QTime=69
+2018-01-06 15:29:30.396 INFO  (qtp128526626-13) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=abstract:+"analysis"&fl=id,score&_=1515252157011} hits=151 status=0 QTime=82
+2018-01-06 15:36:12.007 INFO  (qtp128526626-17) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=author:+"Prieve,+B"+OR+author:+"Pooch,+U"&fl=id,score&_=1515252157011} hits=3 status=0 QTime=1
+2018-01-06 15:36:32.030 INFO  (qtp128526626-15) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=author:+"Prieve,+B"+OR+author:+"Pooch,+U"&fl=id&_=1515252157011} hits=3 status=0 QTime=1
+2018-01-06 15:36:38.294 INFO  (qtp128526626-21) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=author:+"Prieve,+B"+OR+author:+"Pooch,+U"&fl=id,score&_=1515252157011} hits=3 status=0 QTime=1
+2018-01-06 15:36:58.318 INFO  (qtp128526626-12) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=author:+"Prieve,+B"+OR+author:+"Pooch,+U"&fl=id,score} hits=3 status=0 QTime=1
+2018-01-06 15:37:12.625 INFO  (qtp128526626-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1515253032484} status=0 QTime=0
+2018-01-06 15:37:12.683 INFO  (qtp128526626-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1515253032485} status=0 QTime=56
+2018-01-06 15:37:16.101 INFO  (qtp128526626-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1515253035989} status=0 QTime=0
+2018-01-06 15:37:16.132 INFO  (qtp128526626-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1515253035989} status=0 QTime=30
+2018-01-06 15:37:42.157 INFO  (qtp128526626-20) [   x:cacm] o.a.s.c.S.Request [cacm]  webapp=/solr path=/select params={q=author:+"Prieve,+B"+OR+author:+"Pooch,+U"&fl=id,score&_=1515253036063} hits=3 status=0 QTime=1
+2018-01-06 15:39:55.075 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=257608164
+2018-01-06 15:39:55.076 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-01-06 15:39:55.076 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-01-06 15:39:55.076 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-01-06 15:39:55.078 INFO  (coreCloseExecutor-12-thread-1) [   x:cacm] o.a.s.c.SolrCore [cacm]  CLOSING SolrCore org.apache.solr.core.SolrCore@f5bdb6e
+2018-01-06 15:39:55.078 INFO  (coreCloseExecutor-12-thread-1) [   x:cacm] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.cacm, tag=257678190

@@ -1,5 +1,2 @@
 *.class
 src/playground/
-solr-7.1.0/
-trec_eval.8.1/
-*.pdf
