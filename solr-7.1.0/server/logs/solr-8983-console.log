@@ -1,6 +1,0 @@
-2018-01-07 17:06:45.857 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
-2018-01-07 17:06:46.590 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.1.0
-2018-01-07 17:06:46.591 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2018-01-07 17:06:46.591 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0, Default config dir: /Users/and_oik/Desktop/Information Retrieval/collection-retrieval/solr-7.1.0/server/solr/configsets/_default/conf
-2018-01-07 17:06:46.668 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-01-07T17:06:46.592Z
-2018-01-07 17:06:46.669 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
